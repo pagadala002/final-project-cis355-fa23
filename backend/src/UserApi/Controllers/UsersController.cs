@@ -25,7 +25,6 @@ public class UsersController : ControllerBase
     /// It does not require any parameters and will return an array of user data.
     /// </remarks>
     /// <response code="200">User list retrieved successfully. Returns a list of user data.</response>
-    /// <response code="204">No Content. No users are available to return.</response>
     /// <response code="401">Unauthorized. The requester does not have permission to access user data.</response>
     /// <response code="500">Internal Server Error. Could occur if there is an issue with the server or database.</response>
     [HttpGet]
