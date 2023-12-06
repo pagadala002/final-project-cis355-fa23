@@ -26,7 +26,6 @@ public class AuthController : ControllerBase
     /// <param name="model">The authentication request containing the user's credentials.</param>
     /// <response code="200">Authentication successful. Returns the auth token.</response>
     /// <response code="400">Bad request. The request body may be missing or with incorrect data.</response>
-    /// <response code="401">Unauthorized. The username or password is incorrect.</response>
     /// <response code="500">Internal Server Error. Could occur if there is an issue while processing the authentication.</response>
     [AllowAnonymous]
     [HttpPost("login")]
